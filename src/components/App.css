@@ -1,0 +1,26 @@
+/* Styles go here */
+body, html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#root {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    padding-top: 4rem;
+}
+
+.token {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
